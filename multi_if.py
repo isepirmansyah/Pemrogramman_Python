@@ -1,6 +1,6 @@
 nama = 'Isep Irmansyah'
 matpel = 'Matematika'
-nilai = 70
+nilai = 78
 
 if (nilai >= 85 and nilai <= 100):
     ket = "Grade A"
