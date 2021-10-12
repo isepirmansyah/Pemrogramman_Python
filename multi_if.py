@@ -1,6 +1,6 @@
-nama = 'Isep Irmansyah'
+nama = input("Masukan Nama Anda :")
 matpel = 'Matematika'
-nilai = 78
+nilai = int(input("Masukan Nilai Anda :"))
 
 if (nilai >= 85 and nilai <= 100):
     ket = "Grade A"
