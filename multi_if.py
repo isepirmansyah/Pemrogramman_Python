@@ -13,6 +13,7 @@ elif (nilai >= 30 and nilai < 60):
 else:
     ket = "Grade E"
 
+print('Hasil Pembelajaran Siswa')
 print('Nama Siswa \t:', nama,
       '\nMata Pelajaran \t:', matpel,
       '\nNilai \t\t:', nilai,
