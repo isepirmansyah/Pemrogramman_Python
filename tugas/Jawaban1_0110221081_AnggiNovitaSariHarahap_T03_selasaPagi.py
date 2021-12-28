@@ -1,4 +1,4 @@
-judul = 'SLIP GAJI PT. XYJ\n---------------'
+judul = '------------- SLIP GAJI PT. AnggiNovita ---------------\n'
 nama_pegawai1 = 'Ahmad'
 agama1 = 'Islam'
 jumlah_anak1 = 2
@@ -9,7 +9,6 @@ agama2 = 'Kristen Protestan'
 jumlah_anak2 = 5
 gaji_pokok2 = 6000000
 tunjangan_jabatan2 = ( 20/100 * gaji_pokok2)
-
 
 
 if (jumlah_anak1 < 1):
@@ -30,11 +29,11 @@ elif (jumlah_anak2 > 2):
 
 gaji_kotor = [gaji_pokok1 + tunjangan_jabatan1 + tunjangan_keluarga1 , gaji_pokok2 + tunjangan_jabatan2 + tunjangan_keluarga2]
 
-zakat_propesi = [(0, 0.025)[agama1 == 'islam' and gaji_kotor[0] >= 6000000] * gaji_pokok1 ,(0, 0.025)[agama2 == 'islam' and gaji_kotor[1] >= 6000000] * gaji_pokok2]
+zakat_propesi = [(0, 0.025)[agama1 == 'Islam' and gaji_kotor[0] >= 6000000] * gaji_pokok1 ,(0, 0.025)[agama2 == 'Islam' and gaji_kotor[1] >= 6000000] * gaji_pokok2]
 
 gaji_bersih = [gaji_kotor[0] - zakat_propesi[0] , gaji_kotor[1] - zakat_propesi[1] ]
 
-print('')
+print('\n')
 print(judul)
 print('Nama Pegawai \t\t:' , nama_pegawai1)
 print('Agama \t\t\t:' , agama1)
@@ -46,7 +45,7 @@ print('Gaji Kotor \t\t:' , gaji_kotor[0])
 print('Jakat Profesi \t\t:' , zakat_propesi[0])
 print('Take Home Pay \t\t:' , gaji_bersih[0])
 
-print('')
+print('\n')
 print(judul)
 print('Nama Pegawai \t\t:' , nama_pegawai2)
 print('Agama \t\t\t:' , agama2)

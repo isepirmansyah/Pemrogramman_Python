@@ -1,14 +1,14 @@
-print('------------Selamat Datang di Toko Kami-------------')
+print('------------ Selamat Datang di Toko Kami -------------')
 print('Barang Yang Tersedia'
       '\n1.Televisi'
       '\n2.AC'
-      '\n3.Kulkas'                  
-      '\n4.Mesin Cuci'              
+      '\n3.Kulkas'
+      '\n4.Mesin Cuci'
       '\n5.Kipas Angin')
 
-nama_pelanggan = str(input('Masukan Nama Anda : '))
 barang = int(input('Masukan Barang Yang Hendak di Beli : '))
 jumlah_barang = int(input('Masukan Jumlah Barang : '))
+nama_pelanggan = str(input('Masukan Nama Anda : '))
 
 if (barang == 1):
     jenis = 'Televisi'
@@ -51,10 +51,10 @@ elif (barang == 5):
     diskon = 5/100 * harga_kotor
     ppn = ((harga_kotor - diskon) * 10/100)
     harga_bersih = harga_kotor - diskon + ppn
-else:
-    print('barang Yang Anda Masukan Tidak Terdaptar di Barang Kami')
 
-print('Terimakasih Telah Berbelanja di IsepTronik\nBerikut Data Pembelian Anda')
+
+print('\n')
+print('Terimakasih Telah Berbelanja di Toko Kami\nBerikut Data Pembelian Anda')
 print("Nama Pelanggan\t:",nama_pelanggan,
       "\nNama Produk\t:",jenis,
       "\nHarga Produk\t:",harga,
